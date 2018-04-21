@@ -197,6 +197,7 @@ namespace Gamekit2D
                     Unpause();
                 }
             }
+            StartCoroutine(SlowTime());
         }
 
         void FixedUpdate()
@@ -207,7 +208,20 @@ namespace Gamekit2D
             UpdateBulletSpawnPointPositions();
             UpdateCameraFollowTargetPosition();
         }
-
+        IEnumerator SlowTime()
+        {
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                Time.timeScale = 0.5f;
+                maxSpeed *= 2f;
+                m_Animator.speed *= 3f;
+                yield return new WaitForSeconds(5);
+                Time.timeScale = 1f;
+                maxSpeed = 10f;
+                m_Animator.speed = 1f;
+                
+            }
+        }
         public void Unpause()
         {
             //if the timescale is already > 0, we 

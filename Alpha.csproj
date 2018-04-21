@@ -507,15 +507,20 @@
     <Compile Include="Assets\Assets\Scripts\enemy_move.cs" />
     <Compile Include="Assets\Assets\Scripts\EnemyMove.cs" />
     <Compile Include="Assets\Assets\Scripts\enter_door.cs" />
+    <Compile Include="Assets\Assets\Scripts\FlipDirection.cs" />
     <Compile Include="Assets\Assets\Scripts\Follow.cs" />
+    <Compile Include="Assets\Assets\Scripts\Gravity.cs" />
     <Compile Include="Assets\Assets\Scripts\KillPlayer.cs" />
     <Compile Include="Assets\Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\Assets\Scripts\Move.cs" />
     <Compile Include="Assets\Assets\Scripts\player_health.cs" />
     <Compile Include="Assets\Assets\Scripts\player_move_prototype.cs" />
+    <Compile Include="Assets\Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Assets\Scripts\Scroll.cs" />
+    <Compile Include="Assets\Assets\Scripts\SlowTime.cs" />
     <Compile Include="Assets\Assets\Scripts\UnlockDoor.cs" />
     <Compile Include="Assets\Assets\Scripts\VectorExtension.cs" />
+    <Compile Include="Assets\Slow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\2DKitScripts\Utilities\Cinemachine\ReleaseNotes.txt" />
