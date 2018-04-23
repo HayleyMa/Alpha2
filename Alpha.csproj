@@ -503,6 +503,7 @@
     <Compile Include="Assets\Assets\2DTilezoneFiles\Scripts\TileInfo.cs" />
     <Compile Include="Assets\Assets\Scripts\Boundary.cs" />
     <Compile Include="Assets\Assets\Scripts\cameraSystem.cs" />
+    <Compile Include="Assets\Assets\Scripts\Crunch.cs" />
     <Compile Include="Assets\Assets\Scripts\DayLight.cs" />
     <Compile Include="Assets\Assets\Scripts\enemy_move.cs" />
     <Compile Include="Assets\Assets\Scripts\EnemyMove.cs" />
@@ -520,7 +521,6 @@
     <Compile Include="Assets\Assets\Scripts\SlowTime.cs" />
     <Compile Include="Assets\Assets\Scripts\UnlockDoor.cs" />
     <Compile Include="Assets\Assets\Scripts\VectorExtension.cs" />
-    <Compile Include="Assets\Slow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\2DKitScripts\Utilities\Cinemachine\ReleaseNotes.txt" />
